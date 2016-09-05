@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA6662991D7D01EA00091F66 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6662981D7D01EA00091F66 /* AppDelegate.swift */; };
+		EA66629B1D7D01EA00091F66 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA66629A1D7D01EA00091F66 /* ViewController.swift */; };
+		EA66629E1D7D01EA00091F66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA66629C1D7D01EA00091F66 /* Main.storyboard */; };
+		EA6662A01D7D01EA00091F66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA66629F1D7D01EA00091F66 /* Assets.xcassets */; };
+		EA6662A31D7D01EA00091F66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA6662A11D7D01EA00091F66 /* LaunchScreen.storyboard */; };
+		EA6662AE1D7D01EA00091F66 /* Book_VisorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6662AD1D7D01EA00091F66 /* Book_VisorTests.swift */; };
+		EA6662B91D7D01EA00091F66 /* Book_VisorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6662B81D7D01EA00091F66 /* Book_VisorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA6662AA1D7D01EA00091F66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA66628D1D7D01EA00091F66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA6662941D7D01EA00091F66;
+			remoteInfo = "Book Visor";
+		};
+		EA6662B51D7D01EA00091F66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA66628D1D7D01EA00091F66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA6662941D7D01EA00091F66;
+			remoteInfo = "Book Visor";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA6662951D7D01EA00091F66 /* Book Visor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Book Visor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA6662981D7D01EA00091F66 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EA66629A1D7D01EA00091F66 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EA66629D1D7D01EA00091F66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA66629F1D7D01EA00091F66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA6662A21D7D01EA00091F66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA6662A41D7D01EA00091F66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA6662A91D7D01EA00091F66 /* Book VisorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Book VisorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA6662AD1D7D01EA00091F66 /* Book_VisorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book_VisorTests.swift; sourceTree = "<group>"; };
+		EA6662AF1D7D01EA00091F66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA6662B41D7D01EA00091F66 /* Book VisorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Book VisorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA6662B81D7D01EA00091F66 /* Book_VisorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book_VisorUITests.swift; sourceTree = "<group>"; };
+		EA6662BA1D7D01EA00091F66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA6662921D7D01EA00091F66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA6662A61D7D01EA00091F66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA6662B11D7D01EA00091F66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA66628C1D7D01EA00091F66 = {
+			isa = PBXGroup;
+			children = (
+				EA6662971D7D01EA00091F66 /* Book Visor */,
+				EA6662AC1D7D01EA00091F66 /* Book VisorTests */,
+				EA6662B71D7D01EA00091F66 /* Book VisorUITests */,
+				EA6662961D7D01EA00091F66 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA6662961D7D01EA00091F66 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA6662951D7D01EA00091F66 /* Book Visor.app */,
+				EA6662A91D7D01EA00091F66 /* Book VisorTests.xctest */,
+				EA6662B41D7D01EA00091F66 /* Book VisorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA6662971D7D01EA00091F66 /* Book Visor */ = {
+			isa = PBXGroup;
+			children = (
+				EA6662981D7D01EA00091F66 /* AppDelegate.swift */,
+				EA66629A1D7D01EA00091F66 /* ViewController.swift */,
+				EA66629C1D7D01EA00091F66 /* Main.storyboard */,
+				EA66629F1D7D01EA00091F66 /* Assets.xcassets */,
+				EA6662A11D7D01EA00091F66 /* LaunchScreen.storyboard */,
+				EA6662A41D7D01EA00091F66 /* Info.plist */,
+			);
+			path = "Book Visor";
+			sourceTree = "<group>";
+		};
+		EA6662AC1D7D01EA00091F66 /* Book VisorTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA6662AD1D7D01EA00091F66 /* Book_VisorTests.swift */,
+				EA6662AF1D7D01EA00091F66 /* Info.plist */,
+			);
+			path = "Book VisorTests";
+			sourceTree = "<group>";
+		};
+		EA6662B71D7D01EA00091F66 /* Book VisorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EA6662B81D7D01EA00091F66 /* Book_VisorUITests.swift */,
+				EA6662BA1D7D01EA00091F66 /* Info.plist */,
+			);
+			path = "Book VisorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA6662941D7D01EA00091F66 /* Book Visor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA6662BD1D7D01EA00091F66 /* Build configuration list for PBXNativeTarget "Book Visor" */;
+			buildPhases = (
+				EA6662911D7D01EA00091F66 /* Sources */,
+				EA6662921D7D01EA00091F66 /* Frameworks */,
+				EA6662931D7D01EA00091F66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Book Visor";
+			productName = "Book Visor";
+			productReference = EA6662951D7D01EA00091F66 /* Book Visor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA6662A81D7D01EA00091F66 /* Book VisorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA6662C01D7D01EA00091F66 /* Build configuration list for PBXNativeTarget "Book VisorTests" */;
+			buildPhases = (
+				EA6662A51D7D01EA00091F66 /* Sources */,
+				EA6662A61D7D01EA00091F66 /* Frameworks */,
+				EA6662A71D7D01EA00091F66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA6662AB1D7D01EA00091F66 /* PBXTargetDependency */,
+			);
+			name = "Book VisorTests";
+			productName = "Book VisorTests";
+			productReference = EA6662A91D7D01EA00091F66 /* Book VisorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EA6662B31D7D01EA00091F66 /* Book VisorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA6662C31D7D01EA00091F66 /* Build configuration list for PBXNativeTarget "Book VisorUITests" */;
+			buildPhases = (
+				EA6662B01D7D01EA00091F66 /* Sources */,
+				EA6662B11D7D01EA00091F66 /* Frameworks */,
+				EA6662B21D7D01EA00091F66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA6662B61D7D01EA00091F66 /* PBXTargetDependency */,
+			);
+			name = "Book VisorUITests";
+			productName = "Book VisorUITests";
+			productReference = EA6662B41D7D01EA00091F66 /* Book VisorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA66628D1D7D01EA00091F66 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Hydrastudio;
+				TargetAttributes = {
+					EA6662941D7D01EA00091F66 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 22EK2B4UZJ;
+						ProvisioningStyle = Automatic;
+					};
+					EA6662A81D7D01EA00091F66 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 22EK2B4UZJ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EA6662941D7D01EA00091F66;
+					};
+					EA6662B31D7D01EA00091F66 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 22EK2B4UZJ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EA6662941D7D01EA00091F66;
+					};
+				};
+			};
+			buildConfigurationList = EA6662901D7D01EA00091F66 /* Build configuration list for PBXProject "Book Visor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA66628C1D7D01EA00091F66;
+			productRefGroup = EA6662961D7D01EA00091F66 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA6662941D7D01EA00091F66 /* Book Visor */,
+				EA6662A81D7D01EA00091F66 /* Book VisorTests */,
+				EA6662B31D7D01EA00091F66 /* Book VisorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA6662931D7D01EA00091F66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA6662A31D7D01EA00091F66 /* LaunchScreen.storyboard in Resources */,
+				EA6662A01D7D01EA00091F66 /* Assets.xcassets in Resources */,
+				EA66629E1D7D01EA00091F66 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA6662A71D7D01EA00091F66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA6662B21D7D01EA00091F66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA6662911D7D01EA00091F66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA66629B1D7D01EA00091F66 /* ViewController.swift in Sources */,
+				EA6662991D7D01EA00091F66 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA6662A51D7D01EA00091F66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA6662AE1D7D01EA00091F66 /* Book_VisorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA6662B01D7D01EA00091F66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA6662B91D7D01EA00091F66 /* Book_VisorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA6662AB1D7D01EA00091F66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA6662941D7D01EA00091F66 /* Book Visor */;
+			targetProxy = EA6662AA1D7D01EA00091F66 /* PBXContainerItemProxy */;
+		};
+		EA6662B61D7D01EA00091F66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA6662941D7D01EA00091F66 /* Book Visor */;
+			targetProxy = EA6662B51D7D01EA00091F66 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA66629C1D7D01EA00091F66 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA66629D1D7D01EA00091F66 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA6662A11D7D01EA00091F66 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA6662A21D7D01EA00091F66 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA6662BB1D7D01EA00091F66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA6662BC1D7D01EA00091F66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA6662BE1D7D01EA00091F66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 22EK2B4UZJ;
+				INFOPLIST_FILE = "Book Visor/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.hydrastud.Book-Visor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EA6662BF1D7D01EA00091F66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 22EK2B4UZJ;
+				INFOPLIST_FILE = "Book Visor/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.hydrastud.Book-Visor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		EA6662C11D7D01EA00091F66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 22EK2B4UZJ;
+				INFOPLIST_FILE = "Book VisorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.hydrastud.Book-VisorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Book Visor.app/Book Visor";
+			};
+			name = Debug;
+		};
+		EA6662C21D7D01EA00091F66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 22EK2B4UZJ;
+				INFOPLIST_FILE = "Book VisorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.hydrastud.Book-VisorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Book Visor.app/Book Visor";
+			};
+			name = Release;
+		};
+		EA6662C41D7D01EA00091F66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 22EK2B4UZJ;
+				INFOPLIST_FILE = "Book VisorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.hydrastud.Book-VisorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Book Visor";
+			};
+			name = Debug;
+		};
+		EA6662C51D7D01EA00091F66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 22EK2B4UZJ;
+				INFOPLIST_FILE = "Book VisorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.hydrastud.Book-VisorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Book Visor";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA6662901D7D01EA00091F66 /* Build configuration list for PBXProject "Book Visor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA6662BB1D7D01EA00091F66 /* Debug */,
+				EA6662BC1D7D01EA00091F66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA6662BD1D7D01EA00091F66 /* Build configuration list for PBXNativeTarget "Book Visor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA6662BE1D7D01EA00091F66 /* Debug */,
+				EA6662BF1D7D01EA00091F66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EA6662C01D7D01EA00091F66 /* Build configuration list for PBXNativeTarget "Book VisorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA6662C11D7D01EA00091F66 /* Debug */,
+				EA6662C21D7D01EA00091F66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EA6662C31D7D01EA00091F66 /* Build configuration list for PBXNativeTarget "Book VisorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA6662C41D7D01EA00091F66 /* Debug */,
+				EA6662C51D7D01EA00091F66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA66628D1D7D01EA00091F66 /* Project object */;
+}
