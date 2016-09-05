@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		EA6662991D7D01EA00091F66 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6662981D7D01EA00091F66 /* AppDelegate.swift */; };
-		EA66629B1D7D01EA00091F66 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA66629A1D7D01EA00091F66 /* ViewController.swift */; };
 		EA66629E1D7D01EA00091F66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA66629C1D7D01EA00091F66 /* Main.storyboard */; };
 		EA6662A01D7D01EA00091F66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA66629F1D7D01EA00091F66 /* Assets.xcassets */; };
 		EA6662A31D7D01EA00091F66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA6662A11D7D01EA00091F66 /* LaunchScreen.storyboard */; };
 		EA6662AE1D7D01EA00091F66 /* Book_VisorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6662AD1D7D01EA00091F66 /* Book_VisorTests.swift */; };
 		EA6662B91D7D01EA00091F66 /* Book_VisorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6662B81D7D01EA00091F66 /* Book_VisorUITests.swift */; };
+		EA6662C71D7D027400091F66 /* pdf.png in Resources */ = {isa = PBXBuildFile; fileRef = EA6662C61D7D027400091F66 /* pdf.png */; };
+		EA6662CD1D7D02AE00091F66 /* pdf_1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = EA6662C91D7D02AE00091F66 /* pdf_1.pdf */; };
+		EA6662CE1D7D02AE00091F66 /* pdf_2.pdf in Resources */ = {isa = PBXBuildFile; fileRef = EA6662CA1D7D02AE00091F66 /* pdf_2.pdf */; };
+		EA6662CF1D7D02AE00091F66 /* pdf_3.pdf in Resources */ = {isa = PBXBuildFile; fileRef = EA6662CB1D7D02AE00091F66 /* pdf_3.pdf */; };
+		EA6662D01D7D02AE00091F66 /* pdf_4.pdf in Resources */ = {isa = PBXBuildFile; fileRef = EA6662CC1D7D02AE00091F66 /* pdf_4.pdf */; };
+		EA6662D31D7D02DD00091F66 /* PDFTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6662D21D7D02DD00091F66 /* PDFTableViewController.swift */; };
+		EA6662DF1D7D3E6200091F66 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6662DE1D7D3E6200091F66 /* WebViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +42,6 @@
 /* Begin PBXFileReference section */
 		EA6662951D7D01EA00091F66 /* Book Visor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Book Visor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA6662981D7D01EA00091F66 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EA66629A1D7D01EA00091F66 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EA66629D1D7D01EA00091F66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EA66629F1D7D01EA00091F66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA6662A21D7D01EA00091F66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +52,13 @@
 		EA6662B41D7D01EA00091F66 /* Book VisorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Book VisorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA6662B81D7D01EA00091F66 /* Book_VisorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book_VisorUITests.swift; sourceTree = "<group>"; };
 		EA6662BA1D7D01EA00091F66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA6662C61D7D027400091F66 /* pdf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pdf.png; sourceTree = "<group>"; };
+		EA6662C91D7D02AE00091F66 /* pdf_1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = pdf_1.pdf; sourceTree = "<group>"; };
+		EA6662CA1D7D02AE00091F66 /* pdf_2.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = pdf_2.pdf; sourceTree = "<group>"; };
+		EA6662CB1D7D02AE00091F66 /* pdf_3.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = pdf_3.pdf; sourceTree = "<group>"; };
+		EA6662CC1D7D02AE00091F66 /* pdf_4.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = pdf_4.pdf; sourceTree = "<group>"; };
+		EA6662D21D7D02DD00091F66 /* PDFTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFTableViewController.swift; sourceTree = "<group>"; };
+		EA6662DE1D7D3E6200091F66 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,10 +110,13 @@
 			isa = PBXGroup;
 			children = (
 				EA6662981D7D01EA00091F66 /* AppDelegate.swift */,
-				EA66629A1D7D01EA00091F66 /* ViewController.swift */,
+				EA6662D21D7D02DD00091F66 /* PDFTableViewController.swift */,
+				EA6662DE1D7D3E6200091F66 /* WebViewController.swift */,
 				EA66629C1D7D01EA00091F66 /* Main.storyboard */,
-				EA66629F1D7D01EA00091F66 /* Assets.xcassets */,
 				EA6662A11D7D01EA00091F66 /* LaunchScreen.storyboard */,
+				EA6662D11D7D02B200091F66 /* pdf */,
+				EA6662C81D7D027900091F66 /* images */,
+				EA66629F1D7D01EA00091F66 /* Assets.xcassets */,
 				EA6662A41D7D01EA00091F66 /* Info.plist */,
 			);
 			path = "Book Visor";
@@ -123,6 +138,25 @@
 				EA6662BA1D7D01EA00091F66 /* Info.plist */,
 			);
 			path = "Book VisorUITests";
+			sourceTree = "<group>";
+		};
+		EA6662C81D7D027900091F66 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				EA6662C61D7D027400091F66 /* pdf.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		EA6662D11D7D02B200091F66 /* pdf */ = {
+			isa = PBXGroup;
+			children = (
+				EA6662C91D7D02AE00091F66 /* pdf_1.pdf */,
+				EA6662CA1D7D02AE00091F66 /* pdf_2.pdf */,
+				EA6662CB1D7D02AE00091F66 /* pdf_3.pdf */,
+				EA6662CC1D7D02AE00091F66 /* pdf_4.pdf */,
+			);
+			name = pdf;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,6 +271,11 @@
 			files = (
 				EA6662A31D7D01EA00091F66 /* LaunchScreen.storyboard in Resources */,
 				EA6662A01D7D01EA00091F66 /* Assets.xcassets in Resources */,
+				EA6662CF1D7D02AE00091F66 /* pdf_3.pdf in Resources */,
+				EA6662C71D7D027400091F66 /* pdf.png in Resources */,
+				EA6662CD1D7D02AE00091F66 /* pdf_1.pdf in Resources */,
+				EA6662D01D7D02AE00091F66 /* pdf_4.pdf in Resources */,
+				EA6662CE1D7D02AE00091F66 /* pdf_2.pdf in Resources */,
 				EA66629E1D7D01EA00091F66 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,7 +301,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA66629B1D7D01EA00091F66 /* ViewController.swift in Sources */,
+				EA6662D31D7D02DD00091F66 /* PDFTableViewController.swift in Sources */,
+				EA6662DF1D7D3E6200091F66 /* WebViewController.swift in Sources */,
 				EA6662991D7D01EA00091F66 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -514,6 +554,7 @@
 				EA6662BF1D7D01EA00091F66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EA6662C01D7D01EA00091F66 /* Build configuration list for PBXNativeTarget "Book VisorTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +563,7 @@
 				EA6662C21D7D01EA00091F66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EA6662C31D7D01EA00091F66 /* Build configuration list for PBXNativeTarget "Book VisorUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +572,7 @@
 				EA6662C51D7D01EA00091F66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
